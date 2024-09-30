@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+    border: none;
+    outline: none;
+}
+:root {
+    --pri: hsl(179, 62%, 43%);
+    --sec: hsl(71, 73%, 54%);
+    --bg: hsl(218, 22%, 67%);
+    --tri: hsl(204, 43%, 93%);
+}
+body {
+    /* max-width: 1440px; */
+    /* width: 1440px;   */
+    height: 100vh;
+    background-color: var(--tri );
+    color: #3a3838;
+        font-size:16px;
+    }
+.wrapper {
+    width: 950px;   
+    background-color: var(--pri);
+    height: 600px;
+    display: grid;
+    border-radius: 30px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first .intro {
+    color: #bbc0c6;
+    font-size: 20px;
+}
+
+.first {  
+              
+    padding: 64px   ;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 16px ;
+    border-top-right-radius: 16px ;
+}
+.first .heading {
+    color: var(--pri);
+    margin-bottom: 16px;
+}
+.first .sub {
+    /* font-size: 30px; */
+    color: var(--sec);
+    font-size: 18px ;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+/* .second {
+    background-color: var(--pri); 
+    color:fff;
+    display: flex;   
+    flex-direction: row-reverse
+}
+
+.firstwrap {
+
+    background-color:red;   
+}
+.secondwrap {
+    background-color: var(--sec);
+ 
+} */
+
+.firstwrap {
+    background-color: var(--pri);
+}
+
+
+
+.second {
+    background-color:#4abebd;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-right-radius: 16px ;
+}
+.firstwrap, .secondwrap {
+    flex: 1; 
+    padding: 2rem;
+}
+
+.firstwrap .heading {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+.secondwrap {
+    border-bottom-left-radius: 16px ;
+    
+}
+
+.firstwrap .sub {           
+    font-size: 32px;    
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.firstwrap .sub span {
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    top: -5px;
+}
+
+.firstwrap .intro {
+    color: #fff;
+    font-size: 20   px;
+    margin-bottom: 24px;
+}
+
+.firstwrap button {
+    background-color: var(--sec);
+    padding: 1rem;
+    display: block;
+    width: 200px;
+    border-radius: 16px;
+    color: #fff; 
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.secondwrap .head {
+    color: white;
+
+}
+.secondwrap .sub {
+    width: 300px;
+    margin: 20px 0  ;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
